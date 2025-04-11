@@ -77,6 +77,9 @@ function App() {
   }, [lightboxOpen, selectedImg]);
 
 
+  function back() {
+    window.location.href = "https://project3-mu-green.vercel.app/"
+  }
 
   return (
     <div className="k1">
@@ -85,7 +88,7 @@ function App() {
           <button className="k4" onClick={() => setIsMenuOpen(!isMenuOpen)}>
             <img src="icons8-menu.gif" alt="Menu" className="k5" />
           </button>
-          <h1 className="k6">sneakers</h1>
+          <h1 className="k6" onClick={back}>sneakers</h1>
           <nav className={`k7 ${isMenuOpen ? 'k8' : ''}`}>
             <button className="k9" onClick={() => setIsMenuOpen(false)}>
               <img src="icons8-menu.gif" alt="Close menu" className="k10" />
