@@ -93,9 +93,9 @@ function App() {
             <ul className="k11">
               <li className="k12"><a href="https://react-project-things.vercel.app/" className='k13'>Collections</a></li>
               <li className="k12"><a href="https://react-project-things.vercel.app/" className="k13">Men</a></li>
-              <li className="k12"><a href="#" className="k13">Women</a></li>
-              <li className="k12"><a href="#" className="k13">About</a></li>
-              <li className="k12"><a href="#" className="k13">Contact</a></li>
+              <li className="k12"><a href="https://react-project-things.vercel.app/" className="k13">Women</a></li>
+              <li className="k12"><a href="https://react-project-things.vercel.app/" className="k13">About</a></li>
+              <li className="k12"><a href="https://react-project-things.vercel.app/" className="k13">Contact</a></li>
             </ul>
           </nav>
         </div>
